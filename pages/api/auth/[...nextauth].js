@@ -31,7 +31,7 @@ export const authOptions = {
             }
         })
     ],
-    adaptor : MongoDBAdapter(clientPromise)
+    adapter: MongoDBAdapter(clientPromise),
 }
 export default nextAuth(authOptions)
     
