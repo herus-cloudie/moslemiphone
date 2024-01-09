@@ -7,6 +7,7 @@ export default function SignUp(){
 }
 
 export async function getServerSideProps({req , res}) {
+  
     const session = await getServerSession(req , res, authOptions)
     if (!(!session)) {
       return {
