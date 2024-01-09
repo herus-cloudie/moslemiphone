@@ -11,7 +11,6 @@ export default function SignInPage(){
         Err : ''
     })
     let changeHandler = (e) => setState({...state , [e.target.name] : e.target.value})
-
     let session = useSession()
     session.status == 'authenticated' ? router.push('/') : null
     console.log(session.status)
