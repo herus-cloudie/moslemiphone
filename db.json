@@ -1,0 +1,293 @@
+{
+    "data" : [
+      {
+          "name" : "galaxyA04e",
+          "price" : "3086000",
+          "img" : "/phonePic/galaxyA04e.webp",
+          "id" : "1",
+          "description" : "",
+          "model" : "2021",
+          "detailes" : {
+              "ram" : "3",
+              "memory" : "32",
+              "screan" : "6.5"
+          },
+          "discount" : "15",
+          "iframeSrc" : "https://www.youtube.com/embed/STUPIwum4Dk?si=JGxrfYuFH3KaTOS5" ,
+          "brand" : "samsung"
+      },
+      {
+          "name" : "galaxyA14",
+          "price" : "4520000",
+          "img" : "/phonePic/galaxyA14.webp",
+          "id" : "2",
+          "description" : "",
+          "model" : "2022",
+          "detailes" : {
+              "ram" : "4",
+              "memory" : "64",
+              "screan" : "6.6"
+          },
+          "discount" : "no",
+          "iframeSrc" : "https://www.youtube.com/embed/Ey7sdrfxwd0?si=qH64a3DdtuIiZAhP",
+          "brand" : "samsung"
+      },
+      {
+          "name" : "galaxyA54",
+          "price" : "12200000",
+          "img" : "/phonePic/galaxyA54.webp",
+          "id" : "3",
+          "description" : "",
+          "model" : "2023",
+          "detailes" : {
+              "ram" : "8",
+              "memory" : "256",
+              "screan" : "6.4"
+          },
+          "discount" : "no",
+          "iframeSrc" : "https://www.youtube.com/embed/FWKHeDnDyOg?si=Lji-4F2b0K_72_us"  ,
+          "brand" : "samsung"
+      },
+      {
+          "name" : "galaxyS23Fe",
+          "price" : "24099000",
+          "img" : "/phonePic/galaxyS23Fe.webp",
+          "id" : "4",
+          "description" : "",
+          "model" : "2023",
+          "detailes" : {
+              "ram" : "8",
+              "memory" : "256",
+              "screan" : "6.4"
+          },
+          "discount" : "no",
+          "iframeSrc" : "https://www.youtube.com/embed/z_vCSobWlXI?si=T45J_9uZsDMvb8LG",
+          "brand" : "samsung"
+      },
+      {
+          "name" : "galaxyS23Ultra",
+          "price" : "48200000",
+          "img" : "/phonePic/galaxyS23Ultra.webp",
+          "id" : "5",
+          "description" : "",
+          "model" : "2023",
+          "detailes" : {
+              "ram" : "12",
+              "memory" : "256",
+              "screan" : "6.8"
+          },
+          "discount" : "4.5",
+          "iframeSrc" : "https://www.youtube.com/embed/A3-MJO2Nvlw?si=6islQOur9yJdv_FC" ,
+          "brand" : "samsung"
+      },
+      {
+          "name" : "iphone11",
+          "price" : "21450000",
+          "img" : "/phonePic/iphone11.webp",
+          "id" : "6",
+          "description" : "",
+          "model" : "2020",
+          "detailes" : {
+              "ram" : "4",
+              "memory" : "128",
+              "screan" : "6.1"
+          },
+          "discount" : "no",
+          "iframeSrc" : "https://www.youtube.com/embed/2VEmKR0IpCE?si=N4J4ltvYqdqfyG_P"  ,
+          "brand" : "apple"
+      },
+      {
+          "name" : "iphone13",
+          "price" : "44990000",
+          "img" : "/phonePic/iphone13.webp",
+          "id" : "7",
+          "description" : "",
+          "model" : "2022",
+          "detailes" : {
+              "ram" : "4",
+              "memory" : "256",
+              "screan" : "6.1"
+          },
+          "discount" : "8",
+          "iframeSrc" : "https://www.youtube.com/embed/OmfGRChkjvc?si=vUZ3kovbwKcif3VY",
+          "brand" : "apple"
+      },
+      {
+          "name" : "iphone13Pro",
+          "price" : "65690000",
+          "img" : "/phonePic/iphone13Pro.webp",
+          "id" : "8",
+          "description" : "",
+          "model" : "2022",
+          "detailes" : {
+              "ram" : "6",
+              "memory" : "256",
+              "screan" : "6.1"
+          },
+          "discount" : "no",
+          "iframeSrc" : "https://www.youtube.com/embed/pfw8y4t3bsY?si=XQCEhM4utAifnH51",
+          "brand" : "apple"
+      },
+      {
+          "name" : "iphone13ProMax",
+          "price" : "98050000",
+          "img" : "/phonePic/iphone13ProMax.webp",
+          "id" : "9",
+          "description" : "",
+          "model" : "2022",
+          "detailes" : {
+              "ram" : "6",
+              "memory" : "512",
+              "screan" : "6.7"
+          },
+          "discount" : "no",
+          "iframeSrc" : "https://www.youtube.com/embed/-o-JbUnSOks?si=pUqTS7jWuLTkXX-n",
+          "brand" : "apple"
+      },
+      {
+          "name" : "iphoneSe2020",
+          "price" : "18080000",
+          "img" : "/phonePic/iphoneSe2020.webp",
+          "id" : "10",
+          "description" : "",
+          "model" : "2020",
+          "detailes" : {
+              "ram" : "3",
+              "memory" : "64",
+              "screan" : "4.7"
+          },
+          "discount" : "16",
+          "iframeSrc" : "https://www.youtube.com/embed/giM05ZYjO9k?si=0UK6D_VZ76HFToIM" ,
+          "brand" : "apple"
+      },
+      {
+          "name" : "iphoneX",
+          "price" : "16400000",
+          "img" : "/phonePic/iphoneX.webp",
+          "id" : "11",
+          "description" : "",
+          "model" : "2019",
+          "detailes" : {
+              "ram" : "3",
+              "memory" : "256",
+              "screan" : "5.8"
+          },
+          "discount" : "no",
+          "iframeSrc" : "https://www.youtube.com/embed/BwzjT74pCyM?si=SR5ZWZ8C5ddC57QD",
+          "brand" : "apple"
+      },
+      {
+          "name" : "13Tpro",
+          "price" : "25000000",
+          "img" : "/phonePic/13Tpro.webp",
+          "id" : "12",
+          "description" : "",
+          "model" : "2023",
+          "detailes" : {
+              "ram" : "12",
+              "memory" : "256",
+              "screan" : "6.67"
+          },
+          "discount" : "no",
+          "iframeSrc" : "https://www.youtube.com/embed/buL1B8IBPtU?si=85mrh32VcrXb5NIL",
+          "brand" : "xiaomi"
+      },
+      {
+          "name" : "pocoC40",
+          "price" : "3149000",
+          "img" : "/phonePic/pocoC40.webp",
+          "id" : "13",
+          "description" : "",
+          "model" : "2022",
+          "detailes" : {
+              "ram" : "4",
+              "memory" : "64",
+              "screan" : "6.71"
+          },
+          "discount" : "no",
+          "iframeSrc" : "https://www.youtube.com/embed/SJmvBeNp_-E?si=zs8mhFNVOrqB3ro6",
+          "brand" : "xiaomi"
+      },
+      {
+          "name" : "pocoF5",
+          "price" : "14890000",
+          "img" : "/phonePic/pocoF5.webp",
+          "id" : "14",
+          "description" : "",
+          "model" : "2022",
+          "detailes" : {
+              "ram" : "12",
+              "memory" : "256",
+              "screan" : "6.67"
+          },
+          "discount" : "no",
+          "iframeSrc" : "https://www.youtube.com/embed/k85QYP8xrHg?si=GzlwZ7IMQuzFvRbv",
+          "brand" : "xiaomi"
+      },
+      {
+          "name" : "pocoM5s",
+          "price" : "6830000",
+          "img" : "/phonePic/pocoM5s.webp",
+          "id" : "15",
+          "description" : "",
+          "model" : "2022",
+          "detailes" : {
+              "ram" : "8",
+              "memory" : "256",
+              "screan" : "6.43"
+          },
+          "discount" : "no",
+          "iframeSrc" : "https://www.youtube.com/embed/5gCfHo7gTrA?si=jgSdiDRzMbSWlKwA",
+          "brand" : "xiaomi"
+      },
+      {
+          "name" : "pocoX5Pro",
+          "price" : "11750000",
+          "img" : "/phonePic/pocoX5Pro.webp",
+          "id" : "16",
+          "description" : "",
+          "model" : "2023",
+          "detailes" : {
+              "ram" : "8",
+              "memory" : "256",
+              "screan" : "6.67"
+          },
+          "discount" : "no",
+          "iframeSrc" : "https://www.youtube.com/embed/5quShsoFnYQ?si=kB1L87ZNL1RHSV-g",
+          "brand" : "xiaomi"
+      },
+      {
+          "name" : "redmiA2Plus",
+          "price" : "3390000",
+          "img" : "/phonePic/redemiA2Plus.webp",
+          "id" : "17",
+          "description" : "",
+          "model" : "2020",
+          "detailes" : {
+              "ram" : "2",
+              "memory" : "32",
+              "screan" : "6.51"
+          },
+          "discount" : "no",
+          "iframeSrc" : "https://www.youtube.com/embed/zWA0qMnVTTc?si=ucFevFwf1-Cz8Ypu",
+          "brand" : "xiaomi"
+      },
+      {
+          "name" : "redmiNote12",
+          "price" : "6599000",
+          "img" : "/phonePic/redmiNote12.webp",
+          "id" : "18",
+          "description" : "",
+          "model" : "2021",
+          "detailes" : {
+              "ram" : "8",
+              "memory" : "128",
+              "screan" : "6.67"
+          },
+          "discount" : "3",
+          "iframeSrc" : "https://www.youtube.com/embed/YP5PN_SzNPc?si=9d8J_F7m62wsff9P",
+          "brand" : "xiaomi"
+      }
+      
+  ]
+  }

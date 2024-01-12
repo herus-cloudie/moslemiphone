@@ -1,0 +1,11 @@
+# URI_DATA=http://localhost:4000/data
+# GITHUB_ID=a70c6fdf535a186de638
+# GITHUB_SECRET=8c8f808808326d88562c1bafe6d6167f53234f92
+# DB_URI=mongodb+srv://herus2006cripto:Amir2006@cluster0.2lq51go.mongodb.net/?retryWrites=true&w=majority
+# SECRET_KEY=7732fd7cf506fc13ae3ac7fbd2addff4
+# AUTH_SECRET=80fb0da9b7a9162fdc02041d58091c3e
+
+
+
+# Projectname=next-auth
+# next-auth-410910=next-auth-410910
