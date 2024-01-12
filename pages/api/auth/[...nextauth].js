@@ -4,8 +4,8 @@ import Credentials from "next-auth/providers/credentials"
 import ConnectDB from "@/utils/connectDB";
 import { User } from "@/utils/Model";
 import { compare } from "bcryptjs";
-import { MongoDBAdapter } from "@auth/mongodb-adapter";
-import clientPromise from "@/lib/mongodb";
+// import { MongoDBAdapter } from "@auth/mongodb-adapter";
+// import clientPromise from "@/lib/mongodb";
 import GoogleProvider from "next-auth/providers/google";
 export const authOptions = {
     session : {strategy : 'jwt'},
