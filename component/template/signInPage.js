@@ -30,6 +30,10 @@ export default function SignInPage(){
         setLoading(true)
         signIn('github', {redirect : false})
     }
+    let logInWithGoogle = () => {
+        setLoading(true)
+        signIn('google', {redirect : false})
+    }
     
     return(
         <div className="container-padding" style={{height : '55rem'}}>
@@ -73,11 +77,16 @@ export default function SignInPage(){
                         <small className="ps-3">اگر تا کنون ثبت نام نکردید</small>
                         <Link href={'/sign-up'}><p className="text-success">ثبت نام رایگان</p></Link>
                     </div>
-
-                    <button onClick={logInWithGithub} className="d-flex btn bg-light align-items-baseline mt-3">
-                        <h6>ثبت نام با گیت هاب</h6>
-                        <a className="btn"><img src="/picture.svg/bootstrap-icons-1.10.3/github.svg" width={30} height={30}/></a>
-                    </button>
+                    <div className="d-flex">
+                        <button onClick={logInWithGoogle} className="d-flex btn bg-light align-items-baseline mt-3">
+                            <h6>ثبت نام گوگل</h6>
+                            <a className="btn"><img src="/picture.svg/bootstrap-icons-1.10.3/google.svg" width={30} height={30}/></a>
+                        </button>
+                        <button onClick={logInWithGithub} className="d-flex btn bg-light align-items-baseline mt-3 me-4">
+                            <h6>ثبت نام با گیت هاب</h6>
+                            <a className="btn"><img src="/picture.svg/bootstrap-icons-1.10.3/github.svg" width={30} height={30}/></a>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

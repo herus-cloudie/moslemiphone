@@ -6,7 +6,7 @@ import { User } from "@/utils/Model";
 import { compare } from "bcryptjs";
 import { MongoDBAdapter } from "@auth/mongodb-adapter";
 import clientPromise from "@/lib/mongodb";
-
+import GoogleProvider from "next-auth/providers/google";
 export const authOptions = {
     session : {strategy : 'jwt'},
     secret: process.env.NEXTAUTH_SECRET,
@@ -14,6 +14,10 @@ export const authOptions = {
         GithubProvider({
             clientId: process.env.GITHUB_ID,
             clientSecret: process.env.GITHUB_SECRET ,
+        }),
+        GoogleProvider({
+            clientId: process.env.GOOGLE_CLIENT_ID,
+            clientSecret: process.env.GOOGLE_CLIENT_SECRET
         }),
         Credentials({
             async authorize(state , req){
@@ -31,8 +35,9 @@ export const authOptions = {
             }
         })
     ],
-    adapter: MongoDBAdapter(clientPromise),
+    // adapter: MongoDBAdapter(clientPromise),
 }
+console.log(process.env.GOOGLE_CLIENT_ID)
 export default nextAuth(authOptions)
     
 
