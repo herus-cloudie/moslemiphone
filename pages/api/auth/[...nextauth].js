@@ -4,21 +4,21 @@ import Credentials from "next-auth/providers/credentials"
 import ConnectDB from "@/utils/connectDB";
 import { User } from "@/utils/Model";
 import { compare } from "bcryptjs";
-// import { MongoDBAdapter } from "@auth/mongodb-adapter";
+// import { MongoDBAdapter } from "@auth/mongodb-adapter"
 // import clientPromise from "@/lib/mongodb";
-import GoogleProvider from "next-auth/providers/google";
+// import GoogleProvider from "next-auth/providers/google";
 export const authOptions = {
     session : {strategy : 'jwt'},
-    secret: process.env.NEXTAUTH_SECRET,
+    secret: process.env.SECRET_KEY,
     providers : [
-        GithubProvider({
-            clientId: process.env.GITHUB_ID,
-            clientSecret: process.env.GITHUB_SECRET ,
-        }),
-        GoogleProvider({
-            clientId: process.env.GOOGLE_ID,
-            clientSecret: process.env.GOOGLE_SECRET
-        }),
+        // GithubProvider({
+        //     clientId: process.env.GITHUB_ID,
+        //     clientSecret: process.env.GITHUB_SECRET ,
+        // }),
+        // GoogleProvider({
+        //     clientId: process.env.GOOGLE_ID,
+        //     clientSecret: process.env.GOOGLE_SECRET,
+        // }),
         Credentials({
             async authorize(state , req){
                 let {Email , Password} = state;
@@ -30,14 +30,12 @@ export const authOptions = {
                 let user = await User.findOne({Email})
                 if(!user) throw new Error(`User doesn't exist`)
                 if(!await compare(Password , user.Password)) throw new Error('Password in not correct')
-                let Name = user.Name;
-                return {email : Email , name : Name}
+                return {email : Email , name : user.Name}
             }
         })
     ],
-    // adapter: MongoDBAdapter(clientPromise),
+//    adapter: MongoDBAdapter(clientPromise),
 }
-console.log(process.env.GOOGLE_CLIENT_ID)
 export default nextAuth(authOptions)
     
 

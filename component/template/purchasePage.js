@@ -36,7 +36,6 @@ export default function PurchasePage(){
         let Data = await procces.json()
         dispatch(ChangeList(Data.data))
     }
-
     let getPrice = reduxState?.map(item => +item.price)
     const finalyPrice = getPrice.reduce((accumulator, currentValue) => accumulator + currentValue , 0)
     
@@ -49,7 +48,7 @@ export default function PurchasePage(){
                  ?
                  <div className="d-flex flex-column align-items-center pb-5" style={{height : '50rem'}}>
                     <h3 style={{color : 'darkgray'}} className="py-5">سبد خرید شما خالی است!</h3>
-                    <img className="rounded" width={300} height={300} src="/pict/emptyBasket.jpg" />
+                    <img className="rounded" width={300} height={300} src="/pict/emptyBasket.png" />
                     <Link href={'/mobile'}><btn className="btn btn-primary mt-4 p-2">خرید گوشی و گارانتی</btn></Link>
                 </div>
                 :

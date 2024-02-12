@@ -23,7 +23,7 @@ export default async function hanlder(req , res){
     }
 
     if(req.method === 'GET'){
-         res.status(200).json({ status : 'success' , data : []})
+         res.status(200).json({ status : 'success' , data : selectedUser.PurchaseList})
     }
 // selectedUser.PurchaseList
     if(req.method === 'DELETE'){

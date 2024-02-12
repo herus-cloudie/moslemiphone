@@ -5,7 +5,6 @@ export default function Home({data}) {
 }
 
 export async function getStaticProps(){
-  // console.log(process.env.URI_DATA)
     let procces = await fetch(process.env.URI_DATA)
     let data = await procces.json()
     return {

@@ -255,7 +255,7 @@ export default function DetailePage(Phone){
                             }
                             
                        </div>
-                        
+                    
                     </div>
                     {
                         loading ? <CustomLoading />
